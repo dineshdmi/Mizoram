@@ -1,0 +1,264 @@
+@import "~highlight.js/styles/googlecode.css";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+@import "./_metronic/_assets/sass/style.react.scss";
+@import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+@import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+@import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+@import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+
+// Header themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/base/dark.scss";
+
+// Header Menu themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/dark.scss";
+
+// Brand themes
+.brand-dark {
+  @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+}
+// Light
+.brand-light {
+  @import "./_metronic/_assets/sass/themes/layout/brand/light.scss";
+}
+
+// Aside themes
+// Dark
+//@import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+// Light
+// @import "./_metronic/_assets/sass/themes/layout/aside/light.scss";
+
+// .example-highlight {
+//   padding: 0rem 1.5rem 1.75rem !important;
+// }
+
+.example-highlight > pre {
+  background: none transparent !important;
+  margin: 0 !important;
+  padding-top: 0.5rem;
+  code {
+    overflow-y: auto;
+    display: block;
+
+    span {
+      background: none transparent !important;
+    }
+  }
+}
+
+.json > pre {
+  background: none #fff !important;
+}
+
+.example-code > .json {
+  background: none #fff !important;
+}
+
+.symbol.symbol-45 > svg {
+  width: 100%;
+  max-width: 45px;
+  height: 45px;
+}
+
+.react-bootstrap-table {
+  overflow-x: auto;
+}
+
+.react-bootstrap-table {
+  th {
+    outline: none;
+
+    &.sortable {
+      .svg-icon-sort {
+        opacity: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        .svg-icon-sort {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .table.table-head-custom thead tr {
+    .sortable-active {
+      color: $primary !important;
+    }
+  }
+}
+.shadowSide {
+  box-shadow: 0 4px 8px 0 rgba(177, 187, 208, 1),
+    0 6px 20px 0 rgba(177, 187, 208, 1);
+}
+.aside-menu
+  .menu-nav
+  > .menu-item
+  > .menu-heading
+  .menu-icon.svg-icon
+  svg
+  g
+  [fill],
+.aside-menu
+  .menu-nav
+  > .menu-item
+  > .menu-link
+  .menu-icon.svg-icon
+  svg
+  g
+  [fill] {
+  transition: fill 0.3s ease;
+  fill: #b5b5c3;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+.switch-on,
+.switch-off {
+  display: none !important;
+}
+.mr-2 {
+  margin-right: 10px !important;
+}
+.mr-1 {
+  margin-right: 5px !important;
+}
+.ml-2 {
+  margin-left: 10px !important;
+}
+.ml-3 {
+  margin-left: 1rem;
+}
+.mr-3 {
+  margin-right: 1rem;
+}
+.ml-1 {
+  margin-left: 5px !important;
+}
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+}
+.MuiInputBase-root fieldset {
+  border-color: rgb(228, 230, 239);
+}
+.MuiInputBase-root fieldset legend {
+  max-width: 0px !important;
+}
+.MuiOutlinedInput-input {
+  padding: 12.5px 14px !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(228, 230, 239) !important;
+  border-width: 1px !important;
+}
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root.Mui-selected:hover {
+  background-color: rgba(0, 190, 227, 1) !important;
+  color: white !important;
+}
+.border_modify {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-radius: 0px;
+  border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+.scroller::-webkit-scrollbar-track {
+  background: #fff; /* color of the tracking area */
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background-color: #419dff; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid #fff; /* creates padding around scroll thumb */
+}
+.breNav ol {
+  display: flex;
+  justify-content: space-between;
+}
+th,
+th span {
+  text-transform: uppercase;
+  color: #b5b5c3 !important;
+  font-size: 12px !important;
+}
+
+td {
+  font-family: Poppins !important;
+  color: #3f4254 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+}
+.height89 {
+  height: 89% !important;
+}
+
+.react-bootstrap-table {
+  width: 100%;
+}
+
+.react-bootstrap-table-pagination {
+  width: 100%;
+}
+.react-bootstrap-table-pagination-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.react-bootstrap-table-page-btns-ul .page-item {
+  margin-right: 5px;
+}
+.react-bootstrap-table-page-btns-ul .page-item.active .page-link {
+  background-color: #1bc5bd;
+}
+.react-bootstrap-table-page-btns-ul .page-item a {
+  border: none;
+  border-radius: 5px;
+}
+.table-bordered tr {
+  border-bottom: 1px solid #ebedf3 !important;
+}
+.table-bordered,
+.table-bordered th,
+.table-bordered td {
+  border: none !important;
+}
+.table thead th {
+  border-bottom: none !important;
+}
+.MuiPaginationItem-root {
+  border-radius: 5px !important;
+}
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #419dff !important;
+  color: #fff;
+}
+input[type="date"] {
+  cursor: pointer;
+  position: relative;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}

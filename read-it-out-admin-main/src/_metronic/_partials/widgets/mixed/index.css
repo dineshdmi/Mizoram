@@ -1,0 +1,23 @@
+.linear_gradient {
+  background-image: linear-gradient(to bottom, #64dbf2, #00bde2);
+  border: none;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  border-radius: 0.25rem !important;
+  margin-right: 0.25rem !important;
+  margin-left: 0.25rem !important;
+}
+
+.font_blue {
+  color: #00bde2;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.font_grey {
+  color: #b5b5c3 !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

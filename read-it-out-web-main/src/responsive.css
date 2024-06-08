@@ -1,0 +1,26 @@
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .responsiveToggle {
+    display: block !important;
+  }
+  .flexColumn {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 415px) {
+  .responsiveToggle {
+    display: block !important;
+  }
+  .flexColumn {
+    flex-direction: column;
+  }
+  .responsive_text {
+    text-align: center !important;
+  }
+  .responsive_mb {
+    margin-bottom: 10px;
+  }
+  .responsive_my {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+}

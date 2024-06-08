@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="65" viewBox="0 0 75 65">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.351" y1="0.5" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#61daff"/>
+      <stop offset="1" stop-color="#25ccff"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon_ionic-ios-folder-open" data-name="Icon ionic-ios-folder-open" transform="translate(-2.252 -4.5)">
+    <path id="Path_18" data-name="Path 18" d="M68.6,13.882a3.724,3.724,0,0,0-3.806-3.923H32.36a1.221,1.221,0,0,1-1.018-.409L27.586,5.711l-.033-.034A3.59,3.59,0,0,0,24.665,4.5H8.623A4.01,4.01,0,0,0,4.5,8.423V20.875H68.6Z" transform="translate(3.206)" fill="url(#linear-gradient)"/>
+    <path id="Path_19" data-name="Path 19" d="M7.606,13.219H6.216c-2.143,0-4.236.86-3.935,4.1S6.216,52.851,6.216,52.851c.452,3,1.959,4.216,4.186,4.216H69.427c2.127,0,3.516-1.315,3.851-4.216,0,0,3.717-31.183,3.952-34.658.234-3.457-1.49-4.975-3.952-4.975H7.606Z" transform="translate(0 12.432)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
